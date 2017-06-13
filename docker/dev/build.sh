@@ -1,2 +1,2 @@
 cd ../../
-docker build -f docker/dev/Dockerfile .
+docker build -t goannotator-dev -f docker/dev/Dockerfile .

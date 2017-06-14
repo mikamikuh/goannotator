@@ -7,6 +7,6 @@ RUN mkdir -p /go/src/app
 WORKDIR /go/src/app
 
 COPY . .
-RUN glide install
+RUN glide up
 
 CMD ["bash", "docker/dev/run.sh"]
